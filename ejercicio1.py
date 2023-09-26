@@ -25,7 +25,6 @@ contract_abi = """
 
 # Crea una instancia del contrato
 contract = web3.eth.contract(address=contract_address, abi=contract_abi)
-private_key = '0f92f1c831d62b730ff4d377efcbb49fc3229e5051454e8a05220b5fd4d9cdd4'
 
 
 # Funcion para incrementar el contador
